@@ -1,2 +1,71 @@
 // Typography styles (site specific)
 // ===============================
+
+.typography__finish--h2,
+.typography__finish--h3 {
+  color: $primary-red;
+  font-family: 'eurostile', sans-serif;
+  font-weight: $font-weight-boldish;
+  letter-spacing: .03rem;
+  text-shadow: 2px 3px 6px rgba(0,0,0,.5);
+}
+
+.typography__finish--h2 {
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 400px) {
+  .typography__finish--h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__finish--h2 {
+    font-size: 5.2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__finish--h2 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .typography__finish--h2 {
+    font-size: 6.6rem;
+  }
+}
+
+.typography__finish--h3 {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 400px) {
+  .typography__finish--h3 {
+    font-size: 1.45rem;
+    top: 30.5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .typography__finish--h3 {
+    font-size: 2.5rem;
+    top: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .typography__finish--h3 {
+    font-size: 2.6rem;
+    top: 30%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .typography__finish--h3 {
+    font-size: 2.7rem;
+    top: 30%;
+  }
+}

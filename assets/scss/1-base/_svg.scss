@@ -1,0 +1,19 @@
+
+.svg__icon  {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  &--blue {
+    fill: $primary-blue;
+  }
+  &--bg {
+    fill: none;
+  }
+  &--blue-stroke {
+    fill: none;
+    stroke: $primary-blue;
+    stroke-width: 7.785;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+}
