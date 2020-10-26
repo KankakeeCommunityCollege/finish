@@ -1,6 +1,6 @@
 title: "Kankakee Community College"
 site_name: "Finish"
-public-url: "https://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
+public-url: "http://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://finish.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 timezone: America/Chicago
 theme: "kcc-gem-theme"
