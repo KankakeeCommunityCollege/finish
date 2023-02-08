@@ -1,6 +1,8 @@
-import test from './test.js';
+import '../../scss/main.scss';
 //import './babelTest.js';
 
-document.addEventListener('DOMContentLoaded', function() {  
-  test();
-});
+// window.addEventListener('load', async () => {
+//   const { default: test } = await import('./test');
+
+//   test();
+// });

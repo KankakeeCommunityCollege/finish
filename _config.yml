@@ -1,22 +1,16 @@
 title: "Kankakee Community College"
 site_name: "Finish"
-public-url: "http://www.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
+port: 3000
+public-url: "http://finish.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://finish.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 timezone: America/Chicago
-theme: "kcc-gem-theme"
+theme: "landing-page-gem"
 google-tag_key: GTM-NZWZW6F
 #core_site: true
+custom_site_js: false
+custom_site_styling: true
+contact_phone: 815-802-8508 # 8500 is main Advising/student services number
 #translate: true ## Uncomment to activate Google Translate Powers!!
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    title: ''
-    permalink: /:categories/:title/
-    baseurl: ../../../
-    categories: news
 permalink: pretty
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -34,8 +28,6 @@ markdown: kramdown
 # include:
 
 exclude:
-  - "gulpfile.js"
-  - "gulp-tasks/"
   - "node_modules"
   - "npm-debug.log"
   - "package.json"
@@ -43,15 +35,14 @@ exclude:
   - "README.md"
   - "Gemfile"
   - "Gemfile.lock"
-  - "gulpconfig.yml"
   - "webpack.config.js"
-  - "install.sh"
-  - "install_template.sh"
   - "WEBPACK-BABEL-COREJS_INFO.md"
   - "siteicon.png"
   - "page-startups"
   - "UPDATE_PROCEDURE.md"
   - "ruby-version.txt"
+  - "buildtools/"
+  - "postcss.config.js"
 
 uploads_dir: "uploads/" # specifies the default uploads directory for CloudCannon
 

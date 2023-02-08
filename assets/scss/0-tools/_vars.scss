@@ -58,9 +58,3 @@ $darker-link: #006ce0;
 $orange-heading: #f99e1b;
 
 $color-grey-heading: $grey-1; // Grey headings used within page content
-
-// Ensure no horizontal scrolling
-html,
-body {
-  overflow-x: hidden;
-}
