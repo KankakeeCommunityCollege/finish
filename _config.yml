@@ -2,7 +2,7 @@ title: "Kankakee Community College"
 site_name: "Finish"
 port: 3000
 # BUILD
-public-url: "http://finish.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
+public-url: "https://finish.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://finish.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
 timezone: America/Chicago
 theme: "landing-page-gem"
