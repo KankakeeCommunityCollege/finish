@@ -4,6 +4,7 @@ port: 3000
 # BUILD
 public-url: "https://finish.kcc.edu" ## This gets generated into the link that displays in the footer (the one above the social icons)
 url: 'https://finish.kcc.edu' ## NO TRAILING SLASHES!!/<--nope
+canonical_baseurl: 'https://finish.kcc.edu'
 timezone: America/Chicago
 theme: "landing-page-gem"
 google-tag_key: GTM-NZWZW6F
